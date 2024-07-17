@@ -5,8 +5,6 @@ let Pswd = "Whxdev";
 
 const proxyIPs = ["workers.cloudflare.cyou"];
 
-let hostnames = [''];
-
 let sha224Password;
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 const worker_default = {
